@@ -3,10 +3,11 @@ import PageOne from './pages/PageOne';
 import PageTwo from './pages/PageTwo';
 import PageThree from './pages/PageThree';
 import Header from './Header';
-import AntidoteSection from './Info';
-import Explore from './Explore';
+import Info from './Info';
+import Discover from './Discover';
 import Contact from './Contact';
 import Preloader from './Preloader';
+
 
 function App() {
 
@@ -36,8 +37,8 @@ function App() {
           </div>
         </div>
       </div>
-      <AntidoteSection/>
-      <Explore/>
+      <Info/>
+      <Discover/>
       <Contact/>
       <Preloader/>
     </div>
