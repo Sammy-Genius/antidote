@@ -32,9 +32,9 @@ const Contact = () => {
                     <div className='w-full lg:w-[50%] h-full flex flex-col justify-center items-center'>
                         <h1 className='text-black voyage text-5xl lg:text-9xl'>Get in touch</h1>
                         <div className='w-[90%] h-auto flex-box'>
-                            <a className='text-black voyage ml-5 text-2xl lg:hover:rule' href="">Twitter</a>
-                            <a className='text-black voyage ml-5 text-2xl lg:hover:rule' href="">Instagram</a>
-                            <a className='text-black voyage ml-5 text-2xl lg:hover:rule' href="">Mail</a>
+                            <a className='text-black voyage ml-5 text-2xl' href="">Twitter</a>
+                            <a className='text-black voyage ml-5 text-2xl' href="">Instagram</a>
+                            <a className='text-black voyage ml-5 text-2xl' href="">Mail</a>
                         </div>
                     </div>
                     <div className='w-full lg:w-[50%] h-full flex-box'>
