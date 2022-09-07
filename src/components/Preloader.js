@@ -41,7 +41,7 @@ const Preloader = () => {
 
     return ( 
         <>
-            <div className='w-full h-full fixed top-0 left-0 bg-black clip b-radius flex-box z-10' ref={preLoad}>
+            <div className='w-full h-full fixed top-0 left-0 bg-black clip b-radius flex-box z-10 pointer-events-none' ref={preLoad}>
                 <div className='w-[80%] md:w-[50%] lg:w-[20%] h-[50%] bg-[#0abde3] flex-box clip-up' ref={box}>
                     <img className='w-[90%] lg:w-[80%] h-full scale-0 translate-y-20' src={require('../images/img-23-remove.png')} alt="" ref={showImg} loading="lazy"/>
                 </div>
@@ -55,7 +55,7 @@ const Preloader = () => {
                 </div>
                 <div className='w-full h-full absolute top-0 left-0 flex flex-col justify-between'>
                     <div className='w-full h-[20%] lg:h-[15%] flex flex-col items-start justify-center lg:justify-start lg:flex-row lg:items-center pl-5'>
-                        <h1 className='voyage text-3xl lg:text-7xl text-red-600 lg:text-white'>antidote.</h1>
+                        <h1 className='voyage text-3xl lg:text-7xl text-red-600 lg:text-white deep'>antidote.</h1>
                         <p className='text-white monument block w-[70%] lg:hidden small mt-5'> Antidote is a photography and creative agency based in <br /> Airport City, Accra</p>
                     </div>
                     <div className='w-full h-[30%] flex justify-end items-center pr-5'>

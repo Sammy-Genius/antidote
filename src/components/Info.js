@@ -25,8 +25,8 @@ const Info = () => {
         <>
             <div className="h-full w-full relative" id="info" ref={clipRef}>
                 <div className='w-full h-full p-[2%] absolute top-0 left-0'>
-                    <h1 className='text-xl md:text-3xl lg:text-4xl voyage italic'>Antidote</h1>
-                    <h1 className='text-2xl md:text-4xl lg:text-7xl voyage'>PHOTOGRAPHY & <br /> CREATIVE AGENCY</h1>
+                    <h1 className='text-2xl md:text-3xl lg:text-4xl voyage italic font-bold lg:font-normal'>Antidote</h1>
+                    <h1 className='text-3xl md:text-4xl lg:text-7xl voyage font-bold lg:font-normal'>PHOTOGRAPHY & <br /> CREATIVE AGENCY</h1>
                 </div>
                 <div className='w-full h-full absolute top-0 left-0 flex flex-col lg:flex-row justify-center items-center'>
                     <p className='voyage text-2xl md:text-3xl leading-[35px] md:leading-[40px] lg:leading-[60px] block w-[60%] h-auto text-center translate-y-[-60%] md:translate-y-[-60%] lg:translate-y-0'>Telling stories through our lenses <br /> We display the art of photography <br /> <span>one shoot at a time</span></p>
@@ -60,7 +60,7 @@ const Info = () => {
                             <img className='w-[50%] h-[40%] lg:w-[36%] lg:h-[80%] gray opacity-20' src={require('../images/img-6.png')} alt="" />
                         </div>
                         <div className='w-full h-full absolute top-0 left-0 flex-box'>
-                            <p className='small text-green-300 voyage opacity-80'>“Inspiration exists, <br /> but it has to find you  <br />working.”
+                            <p className='text-green-300 voyage opacity-80'>“Inspiration exists, <br /> but it has to find you  <br />working.”
                             ― Pablo Picasso</p>
                         </div>
                     </div>

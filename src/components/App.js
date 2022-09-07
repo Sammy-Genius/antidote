@@ -23,7 +23,7 @@ function App() {
           </Routes>
         </div>
         <div className='calc-height flex justify-center lg:justify-end lg:pr-[8%]'>
-          <div className='w-full lg:w-[20%] h-[35%] flex'>
+          <div className='w-full lg:w-[20%] h-[35%] flex translate-y-[-20%] lg:translate-y-0'>
             <div className='w-[33.33%] h-full'>
               <Link to="/" className='text-3xl lg:text-2xl voyage flex justify-center font-black'>first</Link>
             </div>
