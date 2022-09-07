@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: voyage;
+    src: url(fonts/MADE\ Bon\ Voyage\ Regular\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+    font-family: monument;
+    src: url(fonts/MonumentExtended-Regular.otf);
+}
+
+@layer utilities {
+    .clip-circle {
+        clip-path: circle(0%);
+    }
+    .clip {
+        clip-path: circle(100%);
+    }
+    .clip-rec {
+        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%);
+    }
+    .clip-down {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+    }
+    .clip-left {
+        clipPath: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%);
+    }
+    .clip-up {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .calc-height {
+        height: calc(100% - 70%);
+    }
+    .flex-box {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .middle {
+        margin: 0 auto;
+    }
+    .error {
+        border:2px solid red;
+    }
+    .voyage {
+        font-family:voyage;
+    }
+    .monument {
+        font-family:monument;
+    }
+    .font-size {
+        font-size:15rem;
+    }
+    .mid-font-size {
+        font-size:12rem;
+    }
+    .fit {
+        object-fit: cover;
+    }
+    .gray {
+        filter:grayscale(100%);
+    }
+    .small {
+        font-size:12px;
+    }
+    .verySmall {
+        font-size:10px;
+    }
+    .transparent {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    .graph {
+        background-size: 40px 40px;  
+        background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+    }
+    .rule {
+        border-bottom:2px solid black;
+        padding-bottom:5px;
+    }
+    .cancel {
+        text-decoration: line-through;
+    }
+}
+
+
+
