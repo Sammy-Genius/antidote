@@ -60,7 +60,7 @@ const Info = () => {
                             <img className='w-[50%] h-[40%] lg:w-[36%] lg:h-[80%] gray opacity-20' src={require('../images/img-6.png')} alt="" />
                         </div>
                         <div className='w-full h-full absolute top-0 left-0 flex-box'>
-                            <p className='text-green-300 voyage opacity-80'>“Inspiration exists, <br /> but it has to find you  <br />working.”
+                            <p className='text-green-300 font-bold voyage opacity-80'>“Inspiration exists, <br /> but it has to find you  <br />working.”
                             ― Pablo Picasso</p>
                         </div>
                     </div>
