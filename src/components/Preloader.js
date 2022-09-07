@@ -21,9 +21,9 @@ const Preloader = () => {
         setTimeout(() => {
             tl.to(moveUp.current, {y:-100, scale:0, duration:1.8, ease:Power4.easeInOut})
               .to(showImg.current, {y:0, scale:1, duration:1, ease:Power4.easeInOut})
-              .to(box.current, {clipPath:'polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)', duration:1.5, ease: "power2.out"}, "+=1.3")
-              .to(boxTwo.current, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)', duration:1.5, ease: "power2.out"}, "+=.3")
-              .to(boxTwo.current, {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)', duration:1.5, ease: "power2.out"}, "+=.3")
+              .to(box.current, {clipPath:'polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)', duration:1.5, ease: "power4.out"}, "+=1.3")
+              .to(boxTwo.current, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)', duration:1.5, ease: "power4.out"})
+              .to(boxTwo.current, {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)', duration:1.5, ease: "power4.out"})
               .to(textOne.current, {scale:1,opacity:1, duration:.4, ease: "power2.out"})
               .to(textOne.current, {scale:0,opacity:0, duration:.4, ease: "power2.out"})
               .to(textTwo.current, {scale:1,opacity:1, duration:.4, ease: "power2.out"})
