@@ -55,7 +55,7 @@ const Preloader = () => {
                 </div>
                 <div className='w-full h-full absolute top-0 left-0 flex flex-col justify-between'>
                     <div className='w-full h-[20%] lg:h-[15%] flex flex-col items-start justify-center lg:justify-start lg:flex-row lg:items-center pl-5'>
-                        <h1 className='voyage text-3xl lg:text-7xl text-red-600 lg:text-white deep'>antidote.</h1>
+                        <h1 className='voyage text-3xl lg:text-7xl text-white deep'>antidote.</h1>
                         <p className='text-white monument block w-[70%] lg:hidden small mt-5'> Antidote is a photography and creative agency based in <br /> Airport City, Accra</p>
                     </div>
                     <div className='w-full h-[30%] flex justify-end items-center pr-5'>
