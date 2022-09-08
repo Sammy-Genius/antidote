@@ -2,18 +2,16 @@ import { motion } from 'framer-motion';
 
 const reveal = {
     from: {
-        opacity:0,
-        y:50,
-        scale:0
+        clipPath:"circle(0%)"
     },
     to: {
-        opacity:1,
-        y:0,
-       scale:1,
+        clipPath:"circle(100%)",
         transition: {
-            duration:.6,
+            duration:1,
             type: 'tween',
-        }
+            when:'beforeChildren',
+            staggerChildren:.6
+        },
     }
 }
 
@@ -38,9 +36,9 @@ const PageOne = () => {
                             <img className='w-full h-full fit' src={require('../../images/img-3.jpg')} alt="" loading='lazy'/>
                         </div>
                     </div>
-                    <div className='w-full h-full absolute top-0 left-0 flex-box'>
+                    <motion.div className='w-full h-full absolute top-0 left-0 flex-box' variants={reveal}>
                         <h1 className='voyage text-8xl md:mid-font-size lg:font-size text-red-600'>antidote</h1>
-                    </div>
+                    </motion.div>
                 </motion.div>
                 <div className='w-full h-full absolute top-0 left-0 flex justify-end'>
                     <p className='monument transparent text-3xl lg:text-6xl opacity-50 m-5'>001</p>
