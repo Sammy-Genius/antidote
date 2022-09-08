@@ -17,7 +17,7 @@ const reveal = {
 
 const PageThree = () => {
     return ( 
-        <motion.div className='w-[90%] h-[90%] flex-box relative'
+        <motion.div className='w-full lg:w-[90%] h-[90%] flex-box relative'
         variants={reveal}
         initial={'from'}
         animate={'to'}
